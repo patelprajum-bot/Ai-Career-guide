@@ -4,7 +4,14 @@
    CAREER GUIDE — FRONTEND + FASTAPI + SERPAPI
    ========================================================= */
 
-const API_BASE_URL = "http://127.0.0.1:8000";
+// const API_BASE_URL = "http://127.0.0.1:8000";
+// const RECOMMEND_ENDPOINT = `${API_BASE_URL}/recommend`;
+
+// यह चेक करेगा कि अगर ऐप लाइव है तो लाइव बैकएंड का इस्तेमाल करे, नहीं तो लोकल
+const API_BASE_URL = window.location.hostname === "127.0.0.1" || window.location.hostname === "localhost"
+    ? "http://127.0.0.1:8000"
+    : " https://ai-career-guide-3nte.onrender.com"; // आपकी असली Render बैकएंड लिंक यहाँ आ गई है
+
 const RECOMMEND_ENDPOINT = `${API_BASE_URL}/recommend`;
 
 
