@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Career Guide - Discover your ideal career path, required skills, roadmap and learning resources.">
+
+    <title>Career Guide | Find Your Career Path</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar">
+        <div class="container nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">✦</span>
+                <span>Career<span class="logo-accent">Guide</span></span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#explore">Explore</a>
+                <a href="#roadmap">Roadmap</a>
+                <a href="#resources">Resources</a>
+            </nav>
+
+            <a href="#career-form" class="nav-cta">
+                Get Started
+                <span>→</span>
+            </a>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+        <section class="hero">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        AI-Powered Career Discovery
+                    </div>
+
+                    <h1>
+                        Your skills have a
+                        <span class="gradient-text">future.</span>
+                        Let's find it.
+                    </h1>
+
+                    <p class="hero-description">
+                        Tell us about your education, skills and interests.
+                        Career Guide helps you discover promising career paths,
+                        essential skills and a practical learning roadmap.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#career-form" class="primary-btn">
+                            Find My Career
+                            <span>→</span>
+                        </a>
+
+                        <a href="#explore" class="secondary-btn">
+                            Explore Careers
+                        </a>
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>50+</strong>
+                            <span>Career Paths</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat">
+                            <strong>100+</strong>
+                            <span>Skills Mapped</span>
+                        </div>
+
+                        <div class="stat-divider"></div>
+
+                        <div class="stat">
+                            <strong>Smart</strong>
+                            <span>Recommendations</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero visual -->
+                <div class="hero-visual">
+
+                    <div class="floating-card floating-top">
+                        <div class="mini-icon purple">✦</div>
+                        <div>
+                            <strong>Career Match</strong>
+                            <span>94% compatibility</span>
+                        </div>
+                    </div>
+
+                    <div class="career-dashboard">
+
+                        <div class="dashboard-header">
+                            <div>
+                                <span class="dashboard-label">YOUR CAREER PATH</span>
+                                <h3>Software Engineer</h3>
+                            </div>
+
+                            <div class="match-score">
+                                <strong>94%</strong>
+                                <span>Match</span>
+                            </div>
+                        </div>
+
+                        <div class="match-bar">
+                            <div class="match-progress"></div>
+                        </div>
+
+                        <div class="dashboard-skills">
+
+                            <div class="skill-row">
+                                <span>Programming</span>
+                                <div class="skill-line">
+                                    <span style="width: 92%;"></span>
+                                </div>
+                                <b>92%</b>
+                            </div>
+
+                            <div class="skill-row">
+                                <span>Problem Solving</span>
+                                <div class="skill-line">
+                                    <span style="width: 86%;"></span>
+                                </div>
+                                <b>86%</b>
+                            </div>
+
+                            <div class="skill-row">
+                                <span>Communication</span>
+                                <div class="skill-line">
+                                    <span style="width: 78%;"></span>
+                                </div>
+                                <b>78%</b>
+                            </div>
+
+                        </div>
+
+                        <div class="dashboard-footer">
+                            <span>Next milestone</span>
+                            <strong>Build 3 Projects →</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-bottom">
+                        <div class="mini-icon green">✓</div>
+                        <div>
+                            <strong>Roadmap Ready</strong>
+                            <span>12 skills to learn</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= FORM SECTION ================= -->
+        <section class="form-section" id="career-form">
+
+            <div class="container">
+
+                <div class="section-heading center">
+                    <span class="section-tag">01 — TELL US ABOUT YOU</span>
+                    <h2>Build your <span class="gradient-text">career profile.</span></h2>
+                    <p>
+                        A few details are all we need to discover career paths
+                        that match your background and ambitions.
+                    </p>
+                </div>
+
+
+                <form id="careerForm" class="career-form">
+
+                    <div class="form-grid">
+
+                        <!-- Education -->
+                        <div class="form-group">
+                            <label for="education">
+                                Education
+                                <span>*</span>
+                            </label>
+
+                            <select id="education" name="education" required>
+                                <option value="">Select your education</option>
+                                <option value="10th">10th / Secondary</option>
+                                <option value="12th">12th / Higher Secondary</option>
+                                <option value="diploma">Diploma</option>
+                                <option value="undergraduate">Undergraduate / B.Tech / B.E.</option>
+                                <option value="postgraduate">Postgraduate / M.Tech / M.E.</option>
+                                <option value="mba">MBA</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+
+                        <!-- Branch -->
+                        <div class="form-group">
+                            <label for="branch">
+                                Branch / Stream
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="branch"
+                                name="branch"
+                                placeholder="e.g. Computer Science, IT, Commerce"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- Skills -->
+                        <div class="form-group full-width">
+                            <label for="skills">
+                                Current Skills
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="skills"
+                                name="skills"
+                                placeholder="e.g. Python, Excel, Communication, C++"
+                                required
+                            >
+
+                            <small>Separate multiple skills with commas.</small>
+                        </div>
+
+
+                        <!-- Interests -->
+                        <div class="form-group">
+                            <label for="interests">
+                                Interests
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="interests"
+                                name="interests"
+                                placeholder="e.g. Technology, Design, Business"
+                                required
+                            >
+                        </div>
+
+
+                        <!-- Career Goal -->
+                        <div class="form-group">
+                            <label for="careerGoal">
+                                Career Goal
+                                <span>*</span>
+                            </label>
+
+                            <input
+                                type="text"
+                                id="careerGoal"
+                                name="careerGoal"
+                                placeholder="e.g. Software Engineer"
+                                required
+                            >
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-bottom">
+
+                        <div class="privacy-note">
+                            <span>🔒</span>
+                            <p>Your information stays on this device for now.</p>
+                        </div>
+
+                        <button type="submit" class="primary-btn submit-btn" id="findCareerBtn">
+                            <span class="btn-text">Find My Career</span>
+
+                            <span class="btn-loading">
+                                <span class="spinner"></span>
+                                Analyzing...
+                            </span>
+
+                            <span class="btn-arrow">→</span>
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <!-- ================= RESULTS SECTION ================= -->
+        <section class="results-section hidden" id="results">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">02 — YOUR RESULTS</span>
+                    <h2>Career paths worth <span class="gradient-text">exploring.</span></h2>
+                    <p id="resultsSummary">
+                        Based on your profile, here are some career paths that may suit you.
+                    </p>
+                </div>
+
+
+                <div class="career-cards" id="careerCards">
+                    <!-- JavaScript inserts cards here -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= EXPLORE SECTION ================= -->
+        <section class="explore-section" id="explore">
+
+            <div class="container">
+
+                <div class="section-heading center">
+                    <span class="section-tag">03 — CAREER EXPLORATION</span>
+                    <h2>More than a career title.</h2>
+                    <p>
+                        Understand what each path requires and where it can take you.
+                    </p>
+                </div>
+
+
+                <div class="explore-grid">
+
+                    <div class="feature-card">
+                        <div class="feature-icon purple-bg">✦</div>
+                        <h3>Personalized Matches</h3>
+                        <p>
+                            Discover career options based on your education,
+                            existing skills, interests and goals.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon blue-bg">⚡</div>
+                        <h3>Skill Gap Analysis</h3>
+                        <p>
+                            See which skills you already have and which ones
+                            you should develop next.
+                        </p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon green-bg">↗</div>
+                        <h3>Actionable Roadmaps</h3>
+                        <p>
+                            Turn a career goal into a clear sequence of
+                            skills, projects and learning milestones.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= SKILLS SECTION ================= -->
+        <section class="skills-section" id="skills-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">04 — SKILL GAP</span>
+                    <h2>Skills you'll <span class="gradient-text">need.</span></h2>
+                    <p>
+                        Build the capabilities that matter for your recommended career.
+                    </p>
+                </div>
+
+
+                <div class="skills-layout">
+
+                    <div class="skills-overview" id="skillsOverview">
+                        <!-- JavaScript inserts skill overview -->
+                    </div>
+
+                    <div class="skills-list" id="requiredSkills">
+                        <!-- JavaScript inserts skills -->
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= ROADMAP SECTION ================= -->
+        <section class="roadmap-section" id="roadmap">
+
+            <div class="container">
+
+                <div class="section-heading center">
+                    <span class="section-tag">05 — LEARNING ROADMAP</span>
+                    <h2>Your path, <span class="gradient-text">step by step.</span></h2>
+                    <p>
+                        Follow a structured learning journey from fundamentals
+                        to career-ready skills.
+                    </p>
+                </div>
+
+
+                <div class="roadmap" id="roadmapContainer">
+                    <!-- JavaScript inserts roadmap -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= RESOURCES SECTION ================= -->
+        <section class="resources-section" id="resources">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-tag">06 — LEARNING RESOURCES</span>
+                    <h2>Start learning <span class="gradient-text">today.</span></h2>
+                    <p>
+                        Useful resources to help you move from planning to action.
+                    </p>
+                </div>
+
+
+                <div class="resources-grid" id="resourcesGrid">
+                    <!-- JavaScript inserts resources -->
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+        <section class="final-cta">
+
+            <div class="container">
+
+                <div class="cta-card">
+
+              MOVE</span>
+
+                    <h2>
+                        Your career doesn't have
+                        to be a guess.
+                    </h2>
+
+                    <p>
+                        Explore your possibilities, build the right skills
+                        and start moving toward the future you want.
+                    </p>
+
+                    <a href="#career-form" class="primary-btn cta-button">
+                        Find My Career
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+      <div class="cta-glow"></div>
+
+                    <span class="section-tag">YOUR NEXT 
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+
+        <div class="container footer-container">
+
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+                    <span class="logo-icon">✦</span>
+                    <span>Career<span class="logo-accent">Guide</span></span>
+                </a>
+
+                <p>
+                    Helping students make smarter career decisions.
+                </p>
+
+            </div>
+
+            <div class="footer-right">
+                <span>Built for the future of students.</span>
+                <span>© 2026 Career Guide</span>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast">
+        <span class="toast-icon">✓</span>
+        <span id="toastMessage">Career recommendations generated.</span>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
